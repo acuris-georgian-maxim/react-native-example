@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1544704121330" clover="3.2.0">
+  <project timestamp="1544704121330" name="All files">
+    <metrics statements="52" coveredstatements="30" conditionals="25" coveredconditionals="7" methods="18" coveredmethods="4" elements="95" coveredelements="41" complexity="0" loc="52" ncloc="52" packages="8" files="16" classes="16">
+      <package name="config">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="setupTest.js" path="/Users/georgian-sorinmaxim/react-native-example/config/setupTest.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="3" count="5" type="stmt"/>
+          <line num="4" count="5" type="stmt"/>
+          <line num="6" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="App.js" path="/Users/georgian-sorinmaxim/react-native-example/src/components/App.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.HOC">
+        <metrics statements="9" coveredstatements="5" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <file name="HomeScreenContainer.js" path="/Users/georgian-sorinmaxim/react-native-example/src/components/HOC/HomeScreenContainer.js">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+        </file>
+        <file name="LoaderContainer.js" path="/Users/georgian-sorinmaxim/react-native-example/src/components/HOC/LoaderContainer.js">
+          <metrics statements="7" coveredstatements="4" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="23" count="3" type="stmt"/>
+          <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.components.Home">
+        <metrics statements="17" coveredstatements="5" conditionals="19" coveredconditionals="4" methods="12" coveredmethods="1"/>
+        <file name="HomeScreen.js" path="/Users/georgian-sorinmaxim/react-native-example/src/components/Home/HomeScreen.js">
+          <metrics statements="11" coveredstatements="4" conditionals="15" coveredconditionals="4" methods="8" coveredmethods="1"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="82" count="0" type="stmt"/>
+          <line num="92" count="1" type="cond" truecount="2" falsecount="2"/>
+          <line num="98" count="1" type="cond" truecount="2" falsecount="1"/>
+          <line num="102" count="1" type="stmt"/>
+          <line num="109" count="0" type="stmt"/>
+          <line num="110" count="0" type="stmt"/>
+          <line num="112" count="0" type="stmt"/>
+          <line num="114" count="0" type="stmt"/>
+          <line num="118" count="0" type="stmt"/>
+        </file>
+        <file name="ToggleVisibility.js" path="/Users/georgian-sorinmaxim/react-native-example/src/components/Home/ToggleVisibility.js">
+          <metrics statements="6" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="43" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.graphql.apollo">
+        <metrics statements="12" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <file name="client.js" path="/Users/georgian-sorinmaxim/react-native-example/src/graphql/apollo/client.js">
+          <metrics statements="12" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="1"/>
+          <line num="11" count="4" type="stmt"/>
+          <line num="12" count="8" type="cond" truecount="2" falsecount="0"/>
+          <line num="15" count="4" type="stmt"/>
+          <line num="26" count="4" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="60" count="4" type="stmt"/>
+          <line num="65" count="4" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/georgian-sorinmaxim/react-native-example/src/graphql/apollo/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="src.graphql.config">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="config.js" path="/Users/georgian-sorinmaxim/react-native-example/src/graphql/config/config.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="4" count="4" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/georgian-sorinmaxim/react-native-example/src/graphql/config/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="src.graphql.queries">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/georgian-sorinmaxim/react-native-example/src/graphql/queries/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="linkState.js" path="/Users/georgian-sorinmaxim/react-native-example/src/graphql/queries/linkState.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="6" count="4" type="stmt"/>
+          <line num="14" count="4" type="stmt"/>
+          <line num="21" count="4" type="stmt"/>
+          <line num="29" count="4" type="stmt"/>
+        </file>
+        <file name="server.js" path="/Users/georgian-sorinmaxim/react-native-example/src/graphql/queries/server.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="5" count="4" type="stmt"/>
+          <line num="15" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.styles">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="Colours.js" path="/Users/georgian-sorinmaxim/react-native-example/src/styles/Colours.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="4" type="stmt"/>
+        </file>
+        <file name="Metrics.js" path="/Users/georgian-sorinmaxim/react-native-example/src/styles/Metrics.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="3" count="4" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/georgian-sorinmaxim/react-native-example/src/styles/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

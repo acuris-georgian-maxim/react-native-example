@@ -1,0 +1,758 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleVisibility render renders the component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ApolloProvider
+    client={
+      ApolloClient {
+        "__operations_cache__": Map {},
+        "cache": InMemoryCache {
+          "addTypename": true,
+          "cacheKeyRoot": CacheKeyNode {
+            "children": null,
+            "key": null,
+          },
+          "config": Object {
+            "addTypename": true,
+            "dataIdFromObject": [Function],
+            "fragmentMatcher": HeuristicFragmentMatcher {},
+          },
+          "data": DepTrackingCache {
+            "data": Object {
+              "$ROOT_QUERY.list": Object {
+                "__typename": "list",
+                "listIsVisible": true,
+              },
+              "$ROOT_QUERY.menu": Object {
+                "__typename": "menu",
+                "menuIsCollapsed": false,
+              },
+              "ROOT_QUERY": Object {
+                "list": Object {
+                  "generated": true,
+                  "id": "$ROOT_QUERY.list",
+                  "type": "id",
+                  "typename": "list",
+                },
+                "menu": Object {
+                  "generated": true,
+                  "id": "$ROOT_QUERY.menu",
+                  "type": "id",
+                  "typename": "menu",
+                },
+              },
+            },
+            "depend": [Function],
+          },
+          "maybeBroadcastWatch": [Function],
+          "optimistic": Array [],
+          "silenceBroadcast": false,
+          "storeReader": StoreReader {
+            "cacheKeyRoot": CacheKeyNode {
+              "children": null,
+              "key": null,
+            },
+            "executeSelectionSet": [Function],
+            "executeStoreQuery": [Function],
+            "keyMaker": QueryKeyMaker {
+              "cacheKeyRoot": CacheKeyNode {
+                "children": null,
+                "key": null,
+              },
+              "perQueryKeyMakers": Map {},
+            },
+          },
+          "storeWriter": StoreWriter {},
+          "typenameDocumentCache": Map {
+            Object {
+              "definitions": Array [
+                Object {
+                  "kind": "OperationDefinition",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "GeneratedClientQuery",
+                  },
+                  "operation": "query",
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "list",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "listIsVisible",
+                              },
+                            },
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "__typename",
+                              },
+                            },
+                          ],
+                        },
+                      },
+                      Object {
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "menu",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "menuIsCollapsed",
+                              },
+                            },
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "__typename",
+                              },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                },
+              ],
+              "kind": "Document",
+            } => Object {
+              "definitions": Array [
+                Object {
+                  "kind": "OperationDefinition",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "GeneratedClientQuery",
+                  },
+                  "operation": "query",
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "list",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "listIsVisible",
+                              },
+                            },
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "__typename",
+                              },
+                            },
+                          ],
+                        },
+                      },
+                      Object {
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "menu",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "menuIsCollapsed",
+                              },
+                            },
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "__typename",
+                              },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                },
+              ],
+              "kind": "Document",
+            },
+            Object {
+              "definitions": Array [
+                Object {
+                  "kind": "OperationDefinition",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "GeneratedClientQuery",
+                  },
+                  "operation": "query",
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "list",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "listIsVisible",
+                              },
+                            },
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "__typename",
+                              },
+                            },
+                          ],
+                        },
+                      },
+                      Object {
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "menu",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "menuIsCollapsed",
+                              },
+                            },
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "__typename",
+                              },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                },
+              ],
+              "kind": "Document",
+            } => Object {
+              "definitions": Array [
+                Object {
+                  "kind": "OperationDefinition",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "GeneratedClientQuery",
+                  },
+                  "operation": "query",
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "list",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "listIsVisible",
+                              },
+                            },
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "__typename",
+                              },
+                            },
+                          ],
+                        },
+                      },
+                      Object {
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "menu",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "menuIsCollapsed",
+                              },
+                            },
+                            Object {
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "__typename",
+                              },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                },
+              ],
+              "kind": "Document",
+            },
+          },
+          "watches": Set {},
+        },
+        "clientAwareness": Object {},
+        "defaultOptions": Object {},
+        "disableNetworkFetches": false,
+        "link": ApolloLink {
+          "request": [Function],
+        },
+        "mutate": [Function],
+        "query": [Function],
+        "queryDeduplication": true,
+        "reFetchObservableQueries": [Function],
+        "resetStore": [Function],
+        "resetStoreCallbacks": Array [
+          [Function],
+        ],
+        "ssrMode": false,
+        "store": DataStore {
+          "cache": InMemoryCache {
+            "addTypename": true,
+            "cacheKeyRoot": CacheKeyNode {
+              "children": null,
+              "key": null,
+            },
+            "config": Object {
+              "addTypename": true,
+              "dataIdFromObject": [Function],
+              "fragmentMatcher": HeuristicFragmentMatcher {},
+            },
+            "data": DepTrackingCache {
+              "data": Object {
+                "$ROOT_QUERY.list": Object {
+                  "__typename": "list",
+                  "listIsVisible": true,
+                },
+                "$ROOT_QUERY.menu": Object {
+                  "__typename": "menu",
+                  "menuIsCollapsed": false,
+                },
+                "ROOT_QUERY": Object {
+                  "list": Object {
+                    "generated": true,
+                    "id": "$ROOT_QUERY.list",
+                    "type": "id",
+                    "typename": "list",
+                  },
+                  "menu": Object {
+                    "generated": true,
+                    "id": "$ROOT_QUERY.menu",
+                    "type": "id",
+                    "typename": "menu",
+                  },
+                },
+              },
+              "depend": [Function],
+            },
+            "maybeBroadcastWatch": [Function],
+            "optimistic": Array [],
+            "silenceBroadcast": false,
+            "storeReader": StoreReader {
+              "cacheKeyRoot": CacheKeyNode {
+                "children": null,
+                "key": null,
+              },
+              "executeSelectionSet": [Function],
+              "executeStoreQuery": [Function],
+              "keyMaker": QueryKeyMaker {
+                "cacheKeyRoot": CacheKeyNode {
+                  "children": null,
+                  "key": null,
+                },
+                "perQueryKeyMakers": Map {},
+              },
+            },
+            "storeWriter": StoreWriter {},
+            "typenameDocumentCache": Map {
+              Object {
+                "definitions": Array [
+                  Object {
+                    "kind": "OperationDefinition",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "GeneratedClientQuery",
+                    },
+                    "operation": "query",
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "list",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "listIsVisible",
+                                },
+                              },
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "__typename",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                        Object {
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "menu",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "menuIsCollapsed",
+                                },
+                              },
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "__typename",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                  },
+                ],
+                "kind": "Document",
+              } => Object {
+                "definitions": Array [
+                  Object {
+                    "kind": "OperationDefinition",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "GeneratedClientQuery",
+                    },
+                    "operation": "query",
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "list",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "listIsVisible",
+                                },
+                              },
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "__typename",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                        Object {
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "menu",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "menuIsCollapsed",
+                                },
+                              },
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "__typename",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                  },
+                ],
+                "kind": "Document",
+              },
+              Object {
+                "definitions": Array [
+                  Object {
+                    "kind": "OperationDefinition",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "GeneratedClientQuery",
+                    },
+                    "operation": "query",
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "list",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "listIsVisible",
+                                },
+                              },
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "__typename",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                        Object {
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "menu",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "menuIsCollapsed",
+                                },
+                              },
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "__typename",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                  },
+                ],
+                "kind": "Document",
+              } => Object {
+                "definitions": Array [
+                  Object {
+                    "kind": "OperationDefinition",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "GeneratedClientQuery",
+                    },
+                    "operation": "query",
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "list",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "listIsVisible",
+                                },
+                              },
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "__typename",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                        Object {
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "menu",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "menuIsCollapsed",
+                                },
+                              },
+                              Object {
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "__typename",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                  },
+                ],
+                "kind": "Document",
+              },
+            },
+            "watches": Set {},
+          },
+        },
+        "version": "2.4.7",
+        "watchQuery": [Function],
+      }
+    }
+  >
+    <Apollo(ToggleVisibility) />
+  </ApolloProvider>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
