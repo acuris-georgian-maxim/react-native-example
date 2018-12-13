@@ -3,7 +3,11 @@ module.exports = {
     test: {
       presets: ['react-native', '@babel/preset-flow'],
       plugins: [
-        '@babel/plugin-proposal-class-properties',
+        '@babel/plugin-proposal-optional-chaining',
+        '@babel/plugin-syntax-optional-chaining',
+        '@babel/plugin-transform-runtime',
+        '@babel/plugin-proposal-export-default-from',
+        ['@babel/plugin-proposal-decorators', { legacy: true }]
         [
           'module-resolver',
           {
